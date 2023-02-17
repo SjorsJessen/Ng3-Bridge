@@ -1,6 +1,6 @@
 import { NgtAmbientLight, NgtSpotLight, NgtPointLight } from "@angular-three/core/lights";
 import { NgtCanvas } from "@angular-three/core";
-import { ReuseGltfComponent } from "./reuse-gltf.component";
+import { ReuseGltfComponent } from "./components/sandbox.component";
 import { Component } from "@angular/core";
 
 @Component({
