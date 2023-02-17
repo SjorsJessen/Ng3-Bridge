@@ -20,7 +20,7 @@ import {Shoe} from "./shoe.component";
         </ng-template>
       </ngt-soba-stage>
 
-      <ngt-soba-orbit-controls autoRotate></ngt-soba-orbit-controls>
+      <ngt-soba-orbit-controls [autoRotateSpeed]="0.25" autoRotate></ngt-soba-orbit-controls>
     `,
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [NgtSobaStage, NgtSobaStageContent, Shoe, NgtRadianPipe, NgtSobaOrbitControls],
